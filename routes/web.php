@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/daff', function () {
-    return view('layouts.accueil');
-});
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

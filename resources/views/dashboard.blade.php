@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="header">
     
-    
     </x-slot>
 
-    <!DOCTYPE html>
+    <div>
+        <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
       <meta charset="utf-8" />
@@ -93,7 +93,8 @@
    
 </body>
 </html>
-
+    </div>
+    
 
 
 </x-app-layout>
